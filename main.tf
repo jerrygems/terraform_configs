@@ -90,8 +90,8 @@ resource "azurerm_virtual_machine" "VM" {
     connection {
       type = "ssh"
       host = azurerm_public_ip.pub.ip_address
-      user = "spidey"
-      password = "@J3rry0101"
+      user = "e.g. username"
+      password = "e.g. passwd"
     }
   }
 
