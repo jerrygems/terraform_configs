@@ -72,9 +72,9 @@ resource "azurerm_virtual_machine" "VM" {
   }
   
   os_profile {
-    computer_name = "spiderverse"
-    admin_username = "spidey"
-    admin_password = "@J3rry0101"
+    computer_name = "e.g. hostname"
+    admin_username = "e.g. username"
+    admin_password = "example@password"
   }
 
   os_profile_linux_config {
